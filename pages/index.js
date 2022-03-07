@@ -13,7 +13,7 @@ export default function Home() {
         <title>Home</title>
         <meta name="viewport" content="web-development, programming" />
       </Head>
-      <h1>Welcome to</h1>
+      <h1 className="text-xl font-bold">Welcome to next</h1>
     </div>
   );
 }
