@@ -112,7 +112,7 @@ const SignUp = () => {
                 className={signup.inputRefer}
               />
             </div>
-            <div className={signup.accountSignUp}> SignUp</div>
+            <div className={signup.accountSignUp}> Sign Up</div>
           </form>
           <p className={signup.bottom_singup_text}>Or quick continue with</p>
           <div>
@@ -160,25 +160,6 @@ const SignUp = () => {
             </p>
           </div>
         </div>
-
-        {/* <from className="mx-5 bg-gray-100 signUpRound flex my-20  flex-col">
-          <input className="form-control rounded-full p-5 m-5" />
-          <input className="form-control rounded-full p-5 m-5" />
-          <input className="form-control rounded-full p-5 m-5" />
-          <input className="form-control rounded-full p-5 m-5" />
-          <button className=" rounded-full bg-blue-700 p-6 w-40   mx-auto  ">
-            SignUp
-          </button>
-        </from> */}
-
-        {/* <div className="py-6 space-x-2 text-center">
-          <span className="w-10 h-10 items-center justify-center inline-flex rounded-full font-bold text-lg border-2 border-white">
-            G+
-          </span>
-          <span className="w-10 h-10 items-center justify-center inline-flex rounded-full font-bold text-lg border-2 border-white">
-            in
-          </span>
-        </div> */}
       </div>
     </section>
   );
