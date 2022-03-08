@@ -1,0 +1,114 @@
+.section {
+  position: relative;
+  width: 375px;
+  height: 100vh;
+  background: #d7d7d7;
+  opacity: 0.9;
+}
+
+.blueCurve {
+  position: absolute;
+  width: 375px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+}
+
+.top {
+  position: absolute;
+  width: 375px;
+  height: 382px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(140.13deg, #406cda -4.34%, #48b0e0 104.04%);
+}
+
+.inputField {
+  position: absolute;
+  width: 375px;
+  height: 350px;
+  left: 0px;
+  top: 250px;
+  background: #ffffff;
+  border-radius: 35px 35px 0px 0px;
+}
+.fromField {
+  position: relative;
+}
+.phoneDiv {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f1ff;
+  border-radius: 50px;
+  padding: 18px;
+  width: 305px;
+  height: 55px;
+
+  left: 36px;
+  top: 25px;
+}
+.inputPhone {
+  background: transparent;
+  margin-left: 10px;
+}
+.nameDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 305px;
+  height: 55px;
+  left: 36px;
+  top: 100px;
+  background: #f0f1ff;
+  border-radius: 50px;
+}
+.inputName {
+  background: transparent;
+  margin-left: 10px;
+}
+
+.passwordDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 305px;
+  height: 55px;
+  left: 36px;
+  top: 178px;
+
+  background: #f0f1ff;
+  border-radius: 50px;
+}
+.inputPassword {
+  background: transparent;
+  margin-left: 10px;
+}
+.referDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 305px;
+  height: 55px;
+  left: 36px;
+  top: 250px;
+
+  background: #f0f1ff;
+  border-radius: 50px;
+}
+.inputRefer {
+  background: transparent;
+  margin-left: 10px;
+}
+
+.accountSignUp {
+  position: absolute;
+  width: 101px;
+  height: 42px;
+  left: 137px;
+  top: 683px;
+}
