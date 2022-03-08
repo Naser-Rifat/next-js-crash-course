@@ -2,17 +2,48 @@ import React from "react";
 import signup from "../styles/Signup.module.css";
 const SignUp = () => {
   return (
-    <section className="min-h-screen flex bg-black items-stretch text-white ">
+    <section className="lg:flex bg-black text-white ">
       <div className="bg-black h-96 w-96"> sasas</div>
       {/* Second */}
 
       <div className={signup.section}>
-        <div className={signup.top}></div>
+        <div className={signup.top}>
+          <svg
+            width="375"
+            height="235"
+            className={signup.top_mask_curve}
+            viewBox="0 0 375 235"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M98.4211 94.6272C34.8941 103.179 -17.2954 148.074 -35.4492 169.453V234.607H380.927C381.267 167.586 381.742 32.4252 380.927 27.9458C379.909 22.3467 299.994 -17.8655 236.367 10.1304C172.74 38.1263 177.83 83.9378 98.4211 94.6272Z"
+              fill="#3CA2DC"
+              fillOpacity="0.3"
+            />
+          </svg>
+          <svg
+            width="40"
+            height="40"
+            className={signup.top_user_icon}
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M38.4307 32.6432C37.4273 30.3979 35.9712 28.3583 34.1435 26.6382C32.3214 24.9131 30.1629 23.5377 27.7872 22.5879C27.7659 22.5779 27.7446 22.5729 27.7234 22.5628C31.0372 20.3015 33.1914 16.6181 33.1914 12.4623C33.1914 5.57789 27.2872 0 20 0C12.7128 0 6.8086 5.57789 6.8086 12.4623C6.8086 16.6181 8.96284 20.3015 12.2766 22.5678C12.2554 22.5779 12.2341 22.5829 12.2128 22.593C9.82986 23.5427 7.69157 24.9045 5.85648 26.6432C4.03048 28.3647 2.57461 30.4039 1.56927 32.6482C0.58163 34.8455 0.0489727 37.2012 0.00013301 39.5879C-0.00128669 39.6416 0.00867084 39.6949 0.0294191 39.7449C0.0501674 39.7948 0.0812866 39.8403 0.120943 39.8787C0.160599 39.9171 0.20799 39.9476 0.260324 39.9685C0.312657 39.9893 0.368874 40 0.425662 40H3.61713C3.85117 40 4.03734 39.8241 4.04266 39.608C4.14904 35.7286 5.79797 32.0955 8.71284 29.3417C11.7288 26.4925 15.7341 24.9246 20 24.9246C24.2659 24.9246 28.2712 26.4925 31.2872 29.3417C34.202 32.0955 35.851 35.7286 35.9573 39.608C35.9627 39.8291 36.1488 40 36.3829 40H39.5743C39.6311 40 39.6873 39.9893 39.7397 39.9685C39.792 39.9476 39.8394 39.9171 39.8791 39.8787C39.9187 39.8403 39.9498 39.7948 39.9706 39.7449C39.9913 39.6949 40.0013 39.6416 39.9999 39.5879C39.9467 37.1859 39.4201 34.8492 38.4307 32.6432ZM20 21.1055C17.5585 21.1055 15.2607 20.206 13.532 18.5729C11.8032 16.9397 10.8511 14.7688 10.8511 12.4623C10.8511 10.1558 11.8032 7.98492 13.532 6.35176C15.2607 4.71859 17.5585 3.8191 20 3.8191C22.4415 3.8191 24.7393 4.71859 26.468 6.35176C28.1968 7.98492 29.1489 10.1558 29.1489 12.4623C29.1489 14.7688 28.1968 16.9397 26.468 18.5729C24.7393 20.206 22.4415 21.1055 20 21.1055Z"
+              fill="white"
+            />
+          </svg>
+          <h1 className={signup.top_signup_text}>Sign Up</h1>
+          <p className={signup.top_signup_description}>
+            Sign Up Sign Up to Healthbondu and amazing thing near around you
+          </p>
+        </div>
 
         <div className={signup.inputField}>
           <form className={signup.fromField}>
             <div className={signup.phoneDiv}>
-              {" "}
               <svg
                 width="10"
                 height="17"
@@ -81,9 +112,54 @@ const SignUp = () => {
                 className={signup.inputRefer}
               />
             </div>
+            <div className={signup.accountSignUp}> SignUp</div>
           </form>
+          <p className={signup.bottom_singup_text}>Or quick continue with</p>
+          <div>
+            <svg
+              width="11"
+              height="19"
+              className={signup.facebook_signin}
+              viewBox="0 0 11 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.86327 18.8V10.2991H9.62748L10.0384 6.9707H6.86327V4.85066C6.86327 3.89021 7.1212 3.23263 8.44982 3.23263H10.1333V0.265201C9.31421 0.174125 8.49085 0.13015 7.66704 0.133476C5.22374 0.133476 3.54622 1.68098 3.54622 4.52187V6.96448H0.800003V10.2929H3.55222V18.8H6.86327Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              width="19"
+              height="19"
+              className={signup.google_signin}
+              viewBox="0 0 19 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18.6162 7.7164C18.7352 8.34121 18.8 8.99447 18.8 9.67617C18.8 15.0084 15.1582 18.8 9.65775 18.8C8.40688 18.8003 7.16819 18.5592 6.01246 18.0903C4.85673 17.6214 3.80662 16.9339 2.92212 16.0671C2.03762 15.2004 1.33607 14.1713 0.857558 13.0388C0.379046 11.9062 0.13295 10.6924 0.133332 9.46663C0.13295 8.24086 0.379046 7.02702 0.857558 5.89448C1.33607 4.76194 2.03762 3.73289 2.92212 2.86614C3.80662 1.99938 4.85673 1.31191 6.01246 0.842998C7.16819 0.374086 8.40688 0.132927 9.65775 0.133301C12.2295 0.133301 14.3784 1.06057 16.027 2.56619L13.3421 5.19723V5.19059C12.3427 4.25764 11.0742 3.77884 9.65775 3.77884C6.5152 3.77884 3.9609 6.38049 3.9609 9.46095C3.9609 12.5405 6.5152 15.1478 9.65775 15.1478C12.5091 15.1478 14.45 13.5502 14.8486 11.3562H9.65775V7.7164H18.6171H18.6162Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              width="12"
+              height="13"
+              className={signup.bottom_text_ok_sign}
+              viewBox="0 0 12 13"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.75 11.2939H11.25V12.7939H0.75V11.2939ZM4.2 9.26895L0.75 5.81894L2.25 4.39395L4.2 6.34395L9.75 0.793945L11.25 2.29395L4.2 9.26895Z"
+                fill="#3E6ED7"
+              />
+            </svg>
+            <p className={signup.bottom_text}>
+              By signing up you accept our Terms & Conditions and Privacy Policy
+            </p>
+          </div>
         </div>
-        <div className={signup.accountSignUp}> </div>
 
         {/* <from className="mx-5 bg-gray-100 signUpRound flex my-20  flex-col">
           <input className="form-control rounded-full p-5 m-5" />
