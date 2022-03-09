@@ -1,3 +1,10 @@
+.signUpLayout {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+
+  background: #eff0fc;
+}
 .section {
   position: relative;
   width: 375px;
@@ -97,6 +104,7 @@
 .inputPhone {
   background: transparent;
   margin-left: 10px;
+  outline: none;
 }
 .nameDiv {
   display: flex;
@@ -116,6 +124,7 @@
 .inputName {
   background: transparent;
   margin-left: 10px;
+  outline: none;
 }
 
 .passwordDiv {
@@ -136,6 +145,7 @@
 .inputPassword {
   background: transparent;
   margin-left: 10px;
+  outline: none;
 }
 .referDiv {
   display: flex;
@@ -154,6 +164,7 @@
 .inputRefer {
   background: transparent;
   margin-left: 10px;
+  outline: none;
 }
 
 .accountSignUp {

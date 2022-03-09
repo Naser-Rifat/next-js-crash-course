@@ -1,6 +1,7 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  /* padding: 0 0.5rem; */
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -8,13 +9,14 @@
 }
 
 .main {
-  padding: 5rem 0;
+  margin: 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   font-size: 1.25rem;
+  box-ordinal-group: white;
 }
 
 /* .grid {

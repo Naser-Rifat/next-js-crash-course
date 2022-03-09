@@ -56,9 +56,11 @@ const SignUp = () => {
             </span>
           </div>
         </div>
+
+        {/* second part */}
         <div
           className="lg:w-1/2 w-full flex items-center justify-center text-center md:px-16 px-0 z-0"
-          style={{ backgroundColor: "#161616" }}
+          style={{ backgroundColor: "#fff" }}
         >
           <div
             className="absolute lg:hidden z-10 inset-0 bg-gray-500 bg-no-repeat bg-cover items-center"
@@ -71,16 +73,8 @@ const SignUp = () => {
           </div>
           <div className="w-full py-6 z-20">
             <h1 className="my-6">{"health"}</h1>
-            <div className="py-6 space-x-2">
-              <span className="w-10 h-10 items-center justify-center inline-flex rounded-full font-bold text-lg border-2 border-white"></span>
-              <span className="w-10 h-10 items-center justify-center inline-flex rounded-full font-bold text-lg border-2 border-white">
-                G+
-              </span>
-              <span className="w-10 h-10 items-center justify-center inline-flex rounded-full font-bold text-lg border-2 border-white">
-                in
-              </span>
-            </div>
-            <p className="text-gray-100">or use email your account</p>
+
+            <p className="text-black">or use email your account</p>
             <form action="" className="sm:w-2/3 w-full px-4 lg:px-0 mx-auto">
               <div className="pb-2 pt-4">
                 <input
@@ -88,12 +82,30 @@ const SignUp = () => {
                   name="email"
                   id="email"
                   placeholder="Email"
-                  className="block w-full p-4 text-lg rounded-sm bg-black"
+                  className="block w-full p-4 text-lg rounded-full bg-black"
                 />
               </div>
               <div className="pb-2 pt-4">
                 <input
-                  className="block w-full p-4 text-lg rounded-sm bg-black"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                  className="block w-full p-4 text-lg rounded-full bg-black"
+                />
+              </div>
+              <div className="pb-2 pt-4">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                  className="block w-full p-4 text-lg rounded-full bg-black"
+                />
+              </div>
+              <div className="pb-2 pt-4">
+                <input
+                  className="block w-full p-4 text-lg rounded-full bg-black"
                   type="password"
                   name="password"
                   id="password"
@@ -107,6 +119,15 @@ const SignUp = () => {
                 <button className="uppercase block w-full p-4 text-lg rounded-full bg-indigo-500 hover:bg-indigo-600 focus:outline-none">
                   sign in
                 </button>
+              </div>
+
+              <div className="py-6 space-x-2">
+                <span className="w-10 h-10  text-black items-center justify-center inline-flex rounded-full font-bold text-lg border-2 border-black">
+                  G+
+                </span>
+                <span className="w-10 text-black h-10 items-center justify-center inline-flex rounded-full font-bold text-lg border-2 border-black">
+                  in
+                </span>
               </div>
 
               <div className="p-4 text-center right-0 left-0 flex justify-center space-x-4 mt-16 lg:hidden ">
